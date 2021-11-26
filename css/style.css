@@ -350,9 +350,10 @@ nav ul li a:hover {
 
 /*hosting.html-start*/
 
-#hosting-article{
+#hosting-article {
     position: relative;
 }
+
 .hosting-bg {
     height: 250px;
     background-image: url("/img/hosting-vps.jpg");
@@ -360,53 +361,56 @@ nav ul li a:hover {
     background-position: center center;
     background-size: cover;
 }
-.hosting-bg-dark{
+
+.hosting-bg-dark {
     background-color: #23353d;
     opacity: 0.7;
     height: 100%;
 }
-.hosting-baslik{
+
+.hosting-baslik {
     position: absolute;
     top: 0;
     left: 350px;
 }
-.hosting-baslik h1{
+
+.hosting-baslik h1 {
     text-align: center;
     padding: 40px 0 10px 0;
     color: white;
     font-size: 50px;
     opacity: 1;
 }
-.hosting-baslik .linktut{
-}
-.hosting-baslik a{
+
+.hosting-baslik a {
     display: inline-block;
     padding: 20px 50px;
-    margin-top: 96px ;
+    margin-top: 96px;
     color: #23353d;
     font-weight: 600;
     border-radius: 8px;
     background-color: #4cd070;
 }
-.hosting-baslik p{
+
+.hosting-baslik p {
     font-weight: 600;
     text-align: center;
     padding: 10px 0;
     color: white;
 }
 
-.hosting-button input{
+.hosting-button input {
     display: inline-block;
-    margin:10px 0;
+    margin: 10px 0;
     font-size: 16px;
     font-weight: 600;
-    border-radius:5px ;
-    color:#f9f9f9;
+    border-radius: 5px;
+    color: #f9f9f9;
     padding: 20px 50px;
     cursor: pointer;
 }
 
-.hosting-card{
+.hosting-card {
     float: left;
     position: relative;
     left: 102.5px;
@@ -416,22 +420,26 @@ nav ul li a:hover {
     padding: 0 5px;
 }
 
-.hosting-card h3{
+.hosting-card h3 {
     margin: 20px 0;
 }
-.hosting-card ul{
+
+.hosting-card ul {
     list-style-type: none;
     height: 200px;
 }
-.hosting-card li{
+
+.hosting-card li {
     line-height: 25px;
 }
-.hosting-card li:nth-child(1){
+
+.hosting-card li:nth-child(1) {
     font-weight: 700;
     font-size: 30px;
     margin: 15px 0;
 }
-.hosting-card a{
+
+.hosting-card a {
     margin: 25px;
     display: inline-block;
     padding: 10px 15px;
@@ -439,6 +447,67 @@ nav ul li a:hover {
     border-radius: 5px;
     background-color: #4cd070;
 }
+
+/*hosting.html-end*/
+
+/*iletisim.html-start*/
+#iletisim-article {
+    padding: 20px 0;
+}
+
+#iletisim-article h1 {
+    background-color: #4cd070;
+    padding: 20px 0;
+    color: #23353d;
+    font-size: 36px;
+}
+
+.harita {
+    margin: 20px 0;
+    float: left;
+}
+
+.harita iframe {
+    width: 785px;
+    height: 450px;
+}
+
+.iletisim-formu {
+    padding: 0 15px;
+    float: left;
+    width: 450px;
+    height: 450px;
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    margin-right:10px ;
+}
+
+.iletisim-formu h2 {
+    margin: 10px 0;
+}
+
+.iletisim-formu label {
+    width: 100px;
+    margin: 10px 0;
+    font-size: 14px;
+    display: inline-block
+}
+
+.iletisim-formu input {
+    width: 250px;
+    height: 50px;
+    margin: 10px 0
+}
+
+.iletisim-formu textarea {
+    width: 250px;
+    height: 100px;
+    vertical-align: top;
+    margin:10px 0;
+}
+
+/*iletisim.html-end*/
 
 /*modal-start*/
 .modal {

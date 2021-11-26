@@ -40,13 +40,35 @@
 <article id="iletisim-article">
     <h1>İletişim</h1>
     <hr>
-    <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe width="1245" height="500" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=mashattan&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                    scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <div class="iletisim-formu">
+        <h2>İletişim Formu</h2>
+        <p>İsteklerinizi buradaki formdan bize ulaştırabilirsiniz, en kısa sürede dönüş yapacağımızdan emin olabilirsiniz…</p>
+        <form action="">
+            <div>
+                <label for="ad">Ad Soyad :</label>
+                <input type="text" id="ad"></div>
+            <div>
+                <label for="email">E-Posta :</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="mesaj">Mesajınız :</label>
+                <textarea id="mesaj"></textarea>
 
-        </div>
+
+            </div>
+            <div>
+                <label for="gonder"></label>
+                <input id="gonder" type="submit" value="Gönder">
+            </div>
+
+
+        </form>
+    </div>
+    <div class="harita">
+        <iframe id="gmap_canvas"
+                src="https://maps.google.com/maps?q=mashattan&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </div>
 </article>
 <footer>
