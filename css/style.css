@@ -587,6 +587,11 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
+.teknikdestek{}
+.teknikdestek h1,h3{
+    margin: 10px 0;
+}
+.teknikdestek p{text-align: right; font-style: italic}
 
 /*birimlerimiz.html-end*/
 
