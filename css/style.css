@@ -480,7 +480,7 @@ nav ul li a:hover {
     text-align: left;
     border: 1px solid #ddd;
     margin: 20px 0;
-    margin-right:10px ;
+    margin-right: 10px;
 }
 
 .iletisim-formu h2 {
@@ -504,10 +504,91 @@ nav ul li a:hover {
     width: 250px;
     height: 100px;
     vertical-align: top;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 /*iletisim.html-end*/
+
+/*birimlerimiz.html-start*/
+
+.banka {
+    margin: 10px 0;
+}
+
+.banka p {
+    text-align: center;
+}
+
+.banka-card {
+    display: inline-block;
+    padding: 25px 15px;
+    margin: 20px 10px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.banka-card td {
+    font-size: 16px;
+}
+
+.banka-card td:nth-child(1) {
+    text-align: center;
+}
+
+.ik {
+
+}
+
+.ik h1 {
+
+    margin: 20px 0;
+}
+
+.ik h4 {
+    margin: 10px 0;
+}
+
+.ik ul {
+    list-style-type: armenian;
+    display: inline-block;
+    width: 600px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px;
+}
+
+.iletisim-formu {
+    padding: 0 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    margin-right: 10px;
+}
+
+.ik-form label {
+    width: 100px;
+    margin: 10px 0;
+    font-size: 14px;
+    display: inline-block
+}
+
+.ik-form input {
+    width: 250px;
+    height: 50px;
+    margin: 10px 0
+}
+
+.ik-form textarea {
+    width: 250px;
+    height: 100px;
+    vertical-align: top;
+    margin: 10px 0;
+}
+
+
+/*birimlerimiz.html-end*/
 
 /*modal-start*/
 .modal {

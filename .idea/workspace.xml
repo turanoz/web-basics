@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e038fbb-b96c-451f-948b-e6f88e050058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/birimlerimiz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/birimler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hosting.html" beforeDir="false" afterPath="$PROJECT_DIR$/hosting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/iletisim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birimlerimiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/birimlerimiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,11 +36,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Turan\Documents\GitHub\WebDesignProject\img" />
       <recent name="C:\Users\Turan\Documents\GitHub\WebDesignProject" />
     </key>
   </component>
@@ -46,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637923947245</updated>
-      <workItem from="1637923948906" duration="2912000" />
+      <workItem from="1637923948906" duration="6529000" />
     </task>
     <servers />
   </component>
