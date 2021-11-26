@@ -595,6 +595,42 @@ nav ul li a:hover {
 
 /*birimlerimiz.html-end*/
 
+/*duyurular.html-start*/
+#duyuru-ekle{
+    float: right;
+
+}
+.duyuru-form{
+}
+.duyuru-form table{
+    margin: 0 auto;
+}
+.duyuru-form tr td:nth-child(1){
+    width: 125px;
+}
+.duyuru-form label{
+    text-align: right;
+}
+.duyuru-form label,input,textarea{
+    margin: 5px 0;
+
+}
+.duyuru-form input{
+    width: 250px;
+    height: 45px;
+
+}
+.duyuru-form textarea{
+    width: 250px;
+    height: 150px;
+    vertical-align: middle;
+}
+/*duyurular.html-end*/
+
+
+
+
+
 /*modal-start*/
 .modal {
     display: none;
@@ -614,7 +650,7 @@ nav ul li a:hover {
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width:500px;
 }
 
 .close {
