@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e038fbb-b96c-451f-948b-e6f88e050058" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hakkimizda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misyonvizyon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birimlerimiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/birimlerimiz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duyurular.html" beforeDir="false" afterPath="$PROJECT_DIR$/duyurular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/iletisim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/duyurular.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/duyurular.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +36,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Turan\Documents\GitHub\WebDesignProject\img" />
       <recent name="C:\Users\Turan\Documents\GitHub\WebDesignProject" />
+      <recent name="C:\Users\Turan\Documents\GitHub\WebDesignProject\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,7 +55,7 @@
       <updated>1637923947245</updated>
       <workItem from="1637923948906" duration="9724000" />
       <workItem from="1637943523608" duration="4164000" />
-      <workItem from="1638012781055" duration="4063000" />
+      <workItem from="1638012781055" duration="4230000" />
     </task>
     <servers />
   </component>
