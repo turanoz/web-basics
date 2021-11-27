@@ -1,15 +1,18 @@
 var models = [
     {
         image: 'img/1.png',
-        link: 'domain.html'
+        link: 'domain.html',
+        icerik:"Domain Hizmetlerimiz için tıklayınız.."
     },
     {
         image: 'img/2.png',
-        link: 'hosting.html'
+        link: 'hosting.html',
+        icerik:"Hosting Hizmetlerimiz için tıklayınız.."
     },
     {
         image: 'img/3.jpg',
-        link: 'birimlerimiz.html?p=bankahesap'
+        link: 'birimlerimiz.html?p=bankahesap',
+        icerik:"Banka Hesaplarımız için tıklayınız..",
     }
 ];
 
@@ -17,7 +20,7 @@ var index = 0;
 var slideCount = models.length;
 var interval;
 var settings = {
-    duration: '2000',
+    duration: '3000',
     random: false
 };
 
@@ -66,7 +69,7 @@ function showSlide(i) {
         index = 0;
     }
 
-    // document.querySelector('.card-title').textContent = models[index].name;
+    document.querySelector('.slider p').textContent = models[index].icerik;
     document.querySelector('.slider-img').setAttribute('src', models[index].image);
     document.querySelector('.slider-link').setAttribute('href', models[index].link);
 }

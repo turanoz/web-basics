@@ -102,48 +102,48 @@ nav ul li a:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     height: 500px;
 }
-
+.slider p{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #4cd070;
+    font-size: 17px;
+    font-weight: bold;
+}
 .slider img {
     width: 100%;
     height: 500px;
 }
-
 .fas {
     cursor: pointer;
     user-select: none;
 }
-
 .arrow {
     font-size: 40px;
     text-shadow: #23353d;
     font-weight: 800;
     color: #4cd070;
 }
-
 .arrow:hover {
     color: #23353d;
     text-shadow: #4cd070;
 }
-
 .arrow-left {
     position: absolute;
     top: 225px;
     left: 5px;
 
 }
-
 .arrow-right {
     position: absolute;
     top: 225px;
     right: 5px;
 }
-
 .search {
     position: absolute;
     right: 100px;
     top: 225px;
 }
-
 .search input, button {
     height: 50px;
     font-size: 18px;
@@ -155,11 +155,9 @@ nav ul li a:hover {
     padding: 5px;
 
 }
-
 .search input {
     width: 400px;
 }
-
 .search button {
     width: 125px;
 }
@@ -176,21 +174,17 @@ nav ul li a:hover {
     overflow: hidden;
     height: 350px;
 }
-
 .hizmetler-card img {
     margin: 10px;
 }
-
 .hizmetler-card li {
     font-size: 14px;
     line-height: 30px;
 }
-
 .hizmetler-card ul {
     list-style-type: none;
     height: 150px;
 }
-
 .duyuru-card {
     cursor: pointer;
     border: 1px solid #4cd070;
@@ -202,25 +196,20 @@ nav ul li a:hover {
     width: 405px;
     height: 250px;
 }
-
 .duyuru-card:hover {
     border: 1px solid #23353d;
 }
-
 .duyuru-card::after {
     clear: both;
 }
-
 .duyuru-card img {
     float: left;
     width: 150px;
     margin-right: 5px;
 }
-
 .duyuru-card h3 {
     text-align: center;
 }
-
 .duyuru-card p {
     font-weight: 400;
     font-size: 14px;
@@ -228,20 +217,16 @@ nav ul li a:hover {
     margin-top: 7px;
     text-align: justify;
 }
-
 .duyuru-footer {
     font-weight: 800;
     text-align: center;
 }
-
 .duyuru-footer a {
     color: #4cd070;
 }
-
 .duyuru-footer a:hover {
     color: #23353d;
 }
-
 /*index.html-hizmetler,duyuru-end*/
 
 /*domain.html-domain,hosting-start*/
@@ -249,16 +234,13 @@ nav ul li a:hover {
     margin: 10px 0;
     text-align: left;
 }
-
 .domain-card {
     position: relative;
 }
-
 .domain-card img {
     width: 100%;
     border-radius: 5px;
 }
-
 .domain-card-search {
     position: absolute;
     top: 55px;
@@ -268,16 +250,13 @@ nav ul li a:hover {
     border-radius: 5px;
     padding: 10px;
 }
-
 .domain-card input {
     width: 500px;
 }
-
 .domain-card-search input, button {
     height: 50px;
     border-radius: 5px;
 }
-
 .domain-hosting-card {
     position: relative;
     display: inline-block;
@@ -291,14 +270,12 @@ nav ul li a:hover {
     border-radius: 4px;
 
 }
-
 .domain-hosting-card img {
     position: absolute;
     height: 75px;
     top: 5px;
     right: 5px;
 }
-
 .domain-hosting-card a.btn-hosting {
     display: inline-block;
     padding: 10px;
@@ -307,7 +284,6 @@ nav ul li a:hover {
     border-radius: 3px;
     border: 1px solid #eea236;
 }
-
 .domain-hosting-card a.btn-transfer {
     display: inline-block;
     padding: 10px;
@@ -316,15 +292,12 @@ nav ul li a:hover {
     border-radius: 3px;
     border: 1px solid #2e6da4;
 }
-
 .domain-hosting-card a.btn-hosting:hover {
     background-color: #ec9821;
 }
-
 .domain-hosting-card a.btn-transfer:hover {
     background-color: #2a6191;
 }
-
 .domain-table {
     width: 100%;
     margin: 50px 0;
@@ -332,7 +305,6 @@ nav ul li a:hover {
     font-weight: 500;
 
 }
-
 .domain-table th {
     padding: 15px;
     background-color: #4cd070;
@@ -340,41 +312,34 @@ nav ul li a:hover {
     border-radius: 8px;
     color: #23353d;
 }
-
 .domain-table td {
     border: 2px solid #f9f9f9;
     border-radius: 8px;
     padding: 10px;
 }
-
 /*domain.html-domain,hosting-end*/
 
 /*hosting.html-start*/
-
 #hosting-article {
     position: relative;
 }
-
 .hosting-bg {
     height: 250px;
-    background-image: url("/img/hosting-vps.jpg");
+    background-image: url("../img/hosting-vps.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
-
 .hosting-bg-dark {
     background-color: #23353d;
     opacity: 0.7;
     height: 100%;
 }
-
 .hosting-baslik {
     position: absolute;
     top: 0;
     left: 350px;
 }
-
 .hosting-baslik h1 {
     text-align: center;
     padding: 40px 0 10px 0;
@@ -382,7 +347,6 @@ nav ul li a:hover {
     font-size: 50px;
     opacity: 1;
 }
-
 .hosting-baslik a {
     display: inline-block;
     padding: 20px 50px;
@@ -392,14 +356,12 @@ nav ul li a:hover {
     border-radius: 8px;
     background-color: #4cd070;
 }
-
 .hosting-baslik p {
     font-weight: 600;
     text-align: center;
     padding: 10px 0;
     color: white;
 }
-
 .hosting-button input {
     display: inline-block;
     margin: 10px 0;
@@ -410,7 +372,6 @@ nav ul li a:hover {
     padding: 20px 50px;
     cursor: pointer;
 }
-
 .hosting-card {
     float: left;
     position: relative;
@@ -420,26 +381,21 @@ nav ul li a:hover {
     margin: 10px 5px;
     padding: 0 5px;
 }
-
 .hosting-card h3 {
     margin: 20px 0;
 }
-
 .hosting-card ul {
     list-style-type: none;
     height: 200px;
 }
-
 .hosting-card li {
     line-height: 25px;
 }
-
 .hosting-card li:nth-child(1) {
     font-weight: 700;
     font-size: 30px;
     margin: 15px 0;
 }
-
 .hosting-card a {
     margin: 25px;
     display: inline-block;
@@ -448,30 +404,25 @@ nav ul li a:hover {
     border-radius: 5px;
     background-color: #4cd070;
 }
-
 /*hosting.html-end*/
 
 /*iletisim.html-start*/
 #iletisim-article {
 }
-
 #iletisim-article h1 {
     background-color: #4cd070;
     padding: 20px 0;
     color: #23353d;
     font-size: 36px;
 }
-
 .harita {
     margin: 20px 0;
     float: left;
 }
-
 .harita iframe {
     width: 785px;
     height: 450px;
 }
-
 .iletisim-formu {
     padding: 0 15px;
     float: left;
@@ -482,43 +433,35 @@ nav ul li a:hover {
     margin: 20px 0;
     margin-right: 10px;
 }
-
 .iletisim-formu h2 {
     margin: 10px 0;
 }
-
 .iletisim-formu label {
     width: 100px;
     margin: 10px 0;
     font-size: 14px;
     display: inline-block
 }
-
 .iletisim-formu input {
     width: 250px;
     height: 50px;
     margin: 10px 0
 }
-
 .iletisim-formu textarea {
     width: 250px;
     height: 100px;
     vertical-align: top;
     margin: 10px 0;
 }
-
 /*iletisim.html-end*/
 
 /*birimlerimiz.html-start*/
-
 .banka {
     margin: 10px 0;
 }
-
 .banka p {
     text-align: center;
 }
-
 .banka-card {
     display: inline-block;
     padding: 25px 15px;
@@ -528,28 +471,22 @@ nav ul li a:hover {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
-
 .banka-card td {
     font-size: 16px;
 }
-
 .banka-card td:nth-child(1) {
     text-align: center;
 }
-
 .ik {
 
 }
-
 .ik h1 {
 
     margin: 20px 0;
 }
-
 .ik h4 {
     margin: 10px 0;
 }
-
 .ik ul {
     list-style-type: armenian;
     display: inline-block;
@@ -558,7 +495,6 @@ nav ul li a:hover {
     text-align: justify;
     padding: 15px;
 }
-
 .iletisim-formu {
     padding: 0 15px;
     text-align: left;
@@ -566,33 +502,28 @@ nav ul li a:hover {
     margin: 20px 0;
     margin-right: 10px;
 }
-
 .ik-form label {
     width: 100px;
     margin: 10px 0;
     font-size: 14px;
     display: inline-block
 }
-
 .ik-form input {
     width: 250px;
     height: 50px;
     margin: 10px 0
 }
-
 .ik-form textarea {
     width: 250px;
     height: 100px;
     vertical-align: top;
     margin: 10px 0;
 }
-
 .teknikdestek{}
 .teknikdestek h1,h3{
     margin: 10px 0;
 }
 .teknikdestek p{text-align: right; font-style: italic}
-
 /*birimlerimiz.html-end*/
 
 /*duyurular.html-start*/
@@ -627,9 +558,82 @@ nav ul li a:hover {
 }
 /*duyurular.html-end*/
 
+/*hakkimizda.html-start*/
+#hakkimizda-article h1{
+    margin: 20px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #3bd070;
+    text-align: left;
+    font-size: 36px;
+}
+#hakkimizda-article p{
+    text-align: justify;
+}
+.hakkimizda-card {
+    padding-top: 50px;
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hakkimizda-box {
+    position: relative;
+    padding: 30px;
+    margin: 15px 0;
+    border-radius: 4px;
+    background: #ffffff;
+    text-align: center;
+    width: 400px;
+}
+.hakkimizda-box img {
+    display: block;
+    height: 82px;
+    margin: 0 auto 10px;
+}
+.hakkimizda-box b {
+    display: block;
+}
+.hakkimizda-box span {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+}
+/*hakkimizda.html-end*/
 
-
-
+/*misyon-vizyon.html-start*/
+#misyon-vizyon-article h1 {
+    margin: 20px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #3bd070;
+    text-align: left;
+    font-size: 36px;
+}
+#misyon-vizyon-article h1::after {
+    content: "|";
+    animation: blink ease 1s infinite;
+}
+#misyon-vizyon-article h2{
+    margin: 20px 0;
+    font-size: 27px;
+    line-height: 37px;
+}
+#misyon-vizyon-article p{
+    text-align: justify;
+    line-height: 24px;
+    font-size: 17px;
+    padding: 15px 0;
+}
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+/*misyon-vizyon.html-end*/
 
 /*modal-start*/
 .modal {
@@ -644,7 +648,6 @@ nav ul li a:hover {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 }
-
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
@@ -652,21 +655,18 @@ nav ul li a:hover {
     border: 1px solid #888;
     width:500px;
 }
-
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
-
 /*modal-end*/
 
 /*footer-start*/
@@ -674,7 +674,6 @@ footer {
     background-color: #23353d;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-
 footer section {
     padding: 30px 0;
     color: #4cd070;
@@ -684,10 +683,11 @@ footer section {
     float: left;
     text-align: center;
 }
-
+footer section p{
+    text-align: center;
+}
 footer a {
     color: crimson;
 }
-
 /*footer-end*/
 
