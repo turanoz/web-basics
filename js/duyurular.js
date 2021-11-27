@@ -9,8 +9,6 @@ let duyurular = [
             "\n" +
             "%72'ye Varan Gerçek İndirimleri Yakala!\n" +
             "\n" +
-            " \n" +
-            "\n" +
             ".COM Domain - Hosting - Kurumsal E-posta - WordPress Hosting - Hazır Site - VDS Server\n" +
             "\n" +
             "Birçok Üründe Gerçek İndirimler Seni Bekliyor!"
@@ -20,9 +18,9 @@ let duyurular = [
         img: "img/1200x628-copy.jpg",
         baslik: "4.99$'a .COM Domain Kayıt Et! Efsane Fiyat Geri Döndü - Acele Et!",
         icerik: "4.99$'a .COM Domain Kaydet!\n" +
-            "<br>" +
+            "/n" +
             "Efsane Fiyat Geri Döndü!\n" +
-            "<br>" +
+            "/n" +
             "DNS Zone Yönetimi - Domain & E-posta Yönlendirme - Özel NS Oluşturma ÜCRETSİZ!"
     }, {
         tarih: "22.09.2021",
@@ -56,7 +54,7 @@ let duyurular = [
             "Gelenekselleşen  .COM ve .NET domain kampanyamız şuan aktif! Sınırlı sayıda domaini kapsayan bu kampanyamızda .COM ve .NET domainleri  4.99$ gibi çok ucuz bir fiyat ile tescil edebilirsiniz."
     }, {
         tarih: "26.12.2018",
-        img: "img/wordpresste-zararli-kod-virüs-taramasi-nasil-yapilir-300x225.png",
+        img: "img/wordpress.png",
         baslik: "Yeni Yıl Kampanyası %30 Net İndirim!",
         icerik: "Sayın Müşterilerimiz,\n" +
             "\n" +
