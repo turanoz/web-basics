@@ -3,9 +3,9 @@ const text = document.querySelector('#misyon-vizyon-article h1');
 
 // make a words array
 const words = [
-  "MİSYONUMUZ."
+  "Misyonumuz"
   ,
-  "VİZYONUMUZ."
+  "Vizyonumuz"
 ];
 
 // start typing effect
