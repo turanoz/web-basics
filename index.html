@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>YT Bilişim Hizmetleri</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -12,32 +13,32 @@
     <a href="index.html"><img src="img/logo.png" alt=""></a>
 </header>
 <nav>
-        <ul>
-            <li><a href="domain.html">Domain</a></li>
-            <li>
-                <a class="dropdown">Hosting</a>
-                <ul class="hidden">
-                    <li><a href="hosting.html?h=limitsiz">Limitsiz Web Hosting</a></li>
-                    <li><a href="hosting.html?h=ekonomik">Ekonomik Hosting</a></li>
-                    <li><a href="hosting.html?h=bayi">Reseller (Bayi) Hosting</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="dropdown">Birimlerimiz</a>
-                <ul class="hidden">
-                    <li><a href="birimlerimiz.html?b=teknik">Teknik Destek</a></li>
-                    <li><a href="birimlerimiz.html?p=bankahesap">Banka Hesap Bilgileri</a></li>
-                    <li><a href="birimlerimiz.html?b=ik">İnsan Kaynakları</a></li>
-                </ul>
-            </li>
-            <li><a href="misyon-vizyon.html">Misyon-Vizyon</a></li>
-            <li><a href="hakkimizda.html">Hakkımızda</a></li>
-            <li><a href="iletisim.html">İletişim</a></li>
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="domain.html">Domain</a></li>
+        <li>
+            <a class="dropdown">Hosting</a>
+            <ul class="hidden">
+                <li><a href="hosting.html?h=limitsiz">Limitsiz Web Hosting</a></li>
+                <li><a href="hosting.html?h=ekonomik">Ekonomik Hosting</a></li>
+                <li><a href="hosting.html?h=bayi">Reseller (Bayi) Hosting</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="dropdown">Birimlerimiz</a>
+            <ul class="hidden">
+                <li><a href="birimlerimiz.html?b=teknik">Teknik Destek</a></li>
+                <li><a href="birimlerimiz.html?p=bankahesap">Banka Hesap Bilgileri</a></li>
+                <li><a href="birimlerimiz.html?b=ik">İnsan Kaynakları</a></li>
+            </ul>
+        </li>
+        <li><a href="misyon-vizyon.html">Misyon-Vizyon</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+</nav>
 
 <section class="slider">
-    <img class="slider-img" src="img/1.png" alt="">
+    <a class="slider-link" href="domain.html"><img class="slider-img" src="img/1.png" alt=""></a>
     <div class="search">
         <input type="text" placeholder="ytbilisim.com...">
         <button type="button">Domain Ara</button>
@@ -92,41 +93,9 @@
     <div class="clearfix"></div>
     </div>
     <h1>Duyurular</h1>
-    <div class="duyuru-card">
-        <h3>Patron Çıldırdı</h3>
-        <img src="img/kresim.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium libero neque obcaecati
-            temporibus vitae!</p>
-    </div>
-    <div class="duyuru-card">
-        <h3>Patron Çıldırdı</h3>
-        <img src="img/kresim.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium libero neque obcaecati
-            temporibus vitae!</p>
-    </div>
-    <div class="duyuru-card">
-        <h3>1 yıllık .com alan adı sadece 7.99$</h3>
-        <img src="img/kresim.jpg" alt="">
-        <p>Bu fırsat kaçmaz ! Sizde yararlanmak istiyorsanız, öğrenci e-posta adresinizle alım yapabilirsiniz.</p>
-    </div>
-    <div class="duyuru-card">
-        <h3>Patron Çıldırdı</h3>
-        <img src="img/kresim.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium libero neque obcaecati
-            temporibus vitae!</p>
-    </div>
-    <div class="duyuru-card">
-        <h3>Patron Çıldırdı</h3>
-        <img src="img/kresim.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium libero neque obcaecati
-            temporibus vitae!</p>
-    </div>
-    <div class="duyuru-card">
-        <h3>Patron Çıldırdı</h3>
-        <img src="img/kresim.jpg" alt="">
+    <div id="duyuru-card-container">
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laudantium libero neque obcaecati
-            temporibus vitae!</p>
+
     </div>
 
     <div class="duyuru-footer"><a href="duyurular.html">Daha Fazla</a></div>
@@ -163,6 +132,7 @@
 
 </footer>
 <script src="js/app.js"></script>
+<script src="js/duyurular.js"></script>
 
 </body>
 </html>

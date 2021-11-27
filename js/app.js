@@ -9,7 +9,7 @@ var models = [
     },
     {
         image: 'img/3.jpg',
-        link: 'hakkimizda.html'
+        link: 'birimlerimiz.html?p=bankahesap'
     }
 ];
 
@@ -68,7 +68,7 @@ function showSlide(i) {
 
     // document.querySelector('.card-title').textContent = models[index].name;
     document.querySelector('.slider-img').setAttribute('src', models[index].image);
-    // document.querySelector('.card-link').setAttribute('href', models[index].link);
+    document.querySelector('.slider-link').setAttribute('href', models[index].link);
 }
 
 document.querySelector('.arrow-left').addEventListener('click', function () {
@@ -81,33 +81,3 @@ document.querySelector('.arrow-right').addEventListener('click', function () {
 });
 
 
-// Popup Al
-var modal = document.getElementById('myModal');
-let modalBaslik = document.querySelector(".modal-baslik");
-let modalIcerik = document.querySelector(".modal-icerik");
-
-// Kipi açan düğmeyi al
-var duyuruCard = document.querySelectorAll(".duyuru-card");
-
-// Kipi kapatan <span> öğesini edinin
-var span = document.getElementsByClassName("close")[0];
-duyuruCard.forEach(function (i) {
-    i.onclick = function () {
-        modalBaslik.textContent = i.children[0].textContent;
-        modalIcerik.textContent = i.children[2].textContent;
-        modal.style.display = "block";
-    }
-})
-
-
-// Kullanıcı <span> (x) düğmesini tıkladığında, popup
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-// Kullanıcı modelden başka herhangi bir yeri tıklattıysa, onu kapatın.
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
